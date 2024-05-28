@@ -3,7 +3,7 @@ import sunstainabilityImage from '../images/sustainabilityImage.png'
 
 function Sustainability() {
   return (
-    <section id='#sustainability'>
+    <section id='sustainability'>
        <h1 className='text-5xl font-bold mt-20 '>Sustainability</h1>
         <div className='flex flex-row justify-between gap-16'>
           <div className='w-1/3 pt-16'>

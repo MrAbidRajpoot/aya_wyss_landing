@@ -2,7 +2,7 @@ import React from 'react'
 
 function Showroom() {
   return (
-    <div>Showroom</div>
+    <div className='text-5xl font-bold'>Showroom</div>
   )
 }
 
