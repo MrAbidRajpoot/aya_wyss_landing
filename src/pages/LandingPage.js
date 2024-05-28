@@ -10,7 +10,7 @@ import HeroComponent from '../components/HeroComponent'
 
 function LandingPage() {
   return (
-    <>
+    <div className='container mx-auto'>
     <Header/>
     <HeroComponent/>
     <Story/>
@@ -19,7 +19,7 @@ function LandingPage() {
     <Sustainability/>
     <Contact/>
     <Footer/>
-    </>
+    </div>
   )
 }
 
