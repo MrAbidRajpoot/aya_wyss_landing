@@ -10,7 +10,7 @@ import HeroComponent from '../components/HeroComponent'
 
 function LandingPage() {
   return (
-    <div className='container mx-auto'>
+    <div className='mx-20'>
     <Header/>
     <HeroComponent/>
     <Story/>
