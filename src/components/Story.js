@@ -1,13 +1,17 @@
 import React from 'react'
 import storyImage from '../images/storyImage.png'
 import ourTeamImage from '../images/ourTeamImage.png'
+import dots from '../images/dots.png'
+import './components.css'
 
 function Story() {
   return (
-    <section id="story">
-        <h1 className='text-4xl font-bold m-20 '>Story</h1>
+    <section id="story" className='pb-20 story_section'>
+      <div className='mx-24'>
+        <h1 className='text-5xl font-bold m-20 '>Story</h1>
+      <img src={dots} className='absolute -mt-10 -ml-8 z-0'></img>
         <div className='flex flex-row justify-between gap-16'>
-          <div className='w-1/3'>
+          <div className='w-1/3 z-10'>
               <a href="/" className="">
                 <img className="w-auto" src={storyImage} alt="Hero Image" />
               </a>
@@ -22,7 +26,6 @@ function Story() {
               </p>
           </div>
         </div>
-
         <div className='flex flex-row justify-between gap-16 my-10'>
           <div className='w-2/3'>
              <h1 className='text-3xl font-medium '>Our Team</h1>
@@ -30,12 +33,14 @@ function Story() {
                   At AYA WYSS, we believe in the power of collaboration. That's why we're assembling a team of talented designers dedicated to pushing the boundaries of fashion innovation. From conceptualization to execution, our team works tirelessly to curate collections that resonate with today's dynamic market trends.              
               </p>
           </div>
-          <div className='w-1/3'>
-              <a href="/" className="">
-                <img className="w-auto " src={ourTeamImage} alt="Hero Image" />
+          <div className='w-1/3 relative'>
+              <img src={dots} className='absolute -mt-10 -ml-7 z-0' alt="Background Image" />
+              <a href="/" className="z-10 relative block">
+                  <img className="w-full" src={ourTeamImage} alt="Hero Image" />
               </a>
           </div>
         </div>
+      </div>
     </section>
   )
 }

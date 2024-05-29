@@ -1,9 +1,12 @@
-import { Input } from '@material-tailwind/react'
 import React from 'react'
+import dots from '../../images/dots.png'
+import './contact.css'
 
 function Contact() {
   return (
-    <section id='contact' className='bg-slate-100'>
+    <section id='contact' className=' mx-16 mt-20'>
+      <img src={dots} alt="" style={{position: 'absolute'}}></img>
+      <div className='bg-[#F4F5FF] m-8 top-10 rounded-lg pb-20 z-10' style={{position: 'relative'}}>
       <h1 className='text-5xl font-medium' style={{color: '#A91079'}}>Contact</h1>
       <div className='mt-10'>
         <div className='flex items-center border-2 border-[#A91079] rounded-lg p-1 pl-2 w-1/3 gap-2'>
@@ -26,12 +29,33 @@ function Contact() {
             86-90 Paul Street, London, United Kingdom, EC2A 4NE
             </p>
         </div>
-        <div className='mt-10'>
-          <form>
-              <Input variant="static" label="Static" placeholder="Static" />
-          </form>
+        <div className='mt-10 flex justify-end'>
+        <form class="space-y-10  w-2/3">
+          <div class="relative border-b-2 border-[#A91079]">
+            <input type="text" name="username" placeholder=" " class="block w-full appearance-none focus:outline-none bg-transparent" />
+            <label for="username" class="absolute top-0 duration-300 origin-0">Username</label>
+          </div>
+          <div class="relative border-b-2 border-[#A91079]">
+            <input type="text" name="email" placeholder=" " class="block w-full appearance-none focus:outline-none bg-transparent" />
+            <label for="email" class="absolute top-0 duration-300 origin-0">Email</label>
+          </div>
+          <div class="relative border-b-2 border-[#A91079]">
+            <input type="password" name="password" placeholder=" " class="block w-full appearance-none focus:outline-none bg-transparent" />
+            <label for="password" class="absolute top-0 duration-300 origin-0">Password</label>
+          </div>
+          <div>
+            <button className='bg-[#A91079] text-white p-3 px-8 rounded-lg flex flex-row items-center gap-2'>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.9472 1.02871C24.0017 0.892413 24.0151 0.743103 23.9856 0.599288C23.9561 0.455474 23.885 0.32348 23.7812 0.21967C23.6774 0.11586 23.5454 0.0448002 23.4016 0.015299C23.2578 -0.0142021 23.1085 -0.000846891 22.9722 0.0537091L1.15169 8.78221H1.15019L0.472186 9.05221C0.343771 9.10343 0.232014 9.18915 0.149259 9.2999C0.0665044 9.41066 0.0159727 9.54213 0.00324586 9.67979C-0.00948095 9.81746 0.0160924 9.95597 0.0771412 10.08C0.13819 10.2041 0.232338 10.3088 0.349186 10.3827L0.964186 10.7727L0.965686 10.7757L8.45819 15.5427L13.2252 23.0352L13.2282 23.0382L13.6182 23.6532C13.6923 23.7696 13.7971 23.8633 13.9211 23.924C14.045 23.9846 14.1833 24.0099 14.3207 23.997C14.4581 23.9842 14.5893 23.9336 14.6998 23.851C14.8104 23.7684 14.896 23.6569 14.9472 23.5287L23.9472 1.02871ZM21.1977 3.86371L9.95669 15.1047L9.63419 14.5977C9.57509 14.5047 9.49622 14.4258 9.40319 14.3667L8.89618 14.0442L20.1372 2.80321L21.9042 2.09671L21.1992 3.86371H21.1977Z" fill="#EEEEEE"/>
+            </svg>
+            Send
+            </button>
+          </div>
+        </form>
         </div>
       </div>
+      </div>
+      <img src={dots} className='right-20 absolute -mt-44 z-0'></img>
     </section>
   )
 }

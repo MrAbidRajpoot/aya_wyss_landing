@@ -1,12 +1,14 @@
 import React from 'react'
 import sunstainabilityImage from '../images/sustainabilityImage.png'
+import dots from '../images/dots.png'
 
 function Sustainability() {
   return (
-    <section id='sustainability'>
+    <section id='sustainability' className='mx-24'>
        <h1 className='text-5xl font-bold mt-20 '>Sustainability</h1>
-        <div className='flex flex-row justify-between gap-16'>
-          <div className='w-1/3 pt-16'>
+      <img src={dots} className='absolute mt-16 -ml-8 z-0'></img>
+        <div className='flex flex-row justify-between gap-16 mt-10'>
+          <div className='w-1/3 pt-16 z-10'>
               <a href="/" className="">
                 <img className="w-auto" src={sunstainabilityImage} alt="Hero Image" />
               </a>

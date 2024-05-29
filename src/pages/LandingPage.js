@@ -10,13 +10,15 @@ import HeroComponent from '../components/HeroComponent'
 
 function LandingPage() {
   return (
-    <div className='mx-20'>
+    <div>
     <Header/>
     <HeroComponent/>
     <Story/>
     <Services/>
-    <Showroom/>
-    <Sustainability/>
+    <div className='bg-[#FFF9F0] pb-20'>
+      <Showroom/>
+      <Sustainability/>
+    </div>
     <Contact/>
     <Footer/>
     </div>

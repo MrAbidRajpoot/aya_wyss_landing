@@ -7,7 +7,11 @@ export default withMT({
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
+  variants: {
+    borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
+  },
 });
