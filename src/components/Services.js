@@ -3,10 +3,10 @@ import React from 'react'
 function Services() {
   return (
     <section id='services' className='mx-24 mt-20 relative z-10'>
-      <h1 className='text-5xl font-bold '>Services</h1>
+      <h1 className='text-2xl md:text-5xl font-bold text-center md:text-start'>Services</h1>
       <div className='my-10'>
-        <h1 className='text-3xl font-bold my-5'>Fabric & garment design</h1>
-        <p className='text-sm'>
+        <h1 className='text-xl md:text-3xl font-bold my-5 text-center md:text-start'>Fabric & garment design</h1>
+        <p className='text-[10px] md:text-sm'>
               Our dynamic design team stands poised to showcase the freshest fashion inclinations and styles to our clientele, operating seamlessly from our Istanbul and London offices. We prioritize responsiveness to the evolving needs of our customers, ensuring their preferences are met with precision.
               <br></br>
               <br></br>
@@ -17,8 +17,8 @@ function Services() {
         </p>
       </div>
       <div>
-        <h1 className='text-3xl font-bold my-5'>Manufacturing & delivery</h1>
-        <p className='text-sm'>
+        <h1 className='text-xl md:text-3xl font-bold my-5 text-center md:text-start'>Manufacturing & delivery</h1>
+        <p className='text-[10px] md:text-sm'>
               At the core of our ethos lies a commitment to excellence, operational efficiency, comprehensive fabric and garment scrutiny, and sustainable practices. Throughout every stage of our production pipeline, we prioritize the adoption of optimal and eco-conscious solutions to minimize unnecessary consumption of time, labor, energy, and resources. Embracing technological advancements, we continually invest in upgrades and adaptations to elevate our sustainability standards.
               <br></br>
               <br></br>

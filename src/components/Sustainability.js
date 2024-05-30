@@ -5,17 +5,17 @@ import dots from '../images/dots.png'
 function Sustainability() {
   return (
     <section id='sustainability' className='mx-24'>
-       <h1 className='text-5xl font-bold mt-20 '>Sustainability</h1>
-      <img src={dots} className='absolute mt-16 -ml-8 z-0'></img>
-        <div className='flex flex-row justify-between gap-16 mt-10'>
-          <div className='w-1/3 pt-16 z-10'>
+       <h1 className='text-2xl md:text-3xl lg:5xl font-bold mt-20 text-center lg:text-start'>Sustainability</h1>
+      <img src={dots} className='absolute mt-16 -ml-8 z-0 hidden lg:block'></img>
+        <div className='lg:flex lg:flex-row justify-between gap-16 mt-10'>
+          <div className='lg:w-1/2 pt-16 z-10 flex lg:block justify-center'>
               <a href="/" className="">
                 <img className="w-auto" src={sunstainabilityImage} alt="Hero Image" />
               </a>
           </div>
-          <div className='w-1/2'>
-            <h1 className='text-xl font-bold'>Commitment to Environmental Sustainability</h1>
-              <p className='mt-10 text-sm'>
+          <div className='lg:w-1/2'>
+            <h1 className='text-base md:text-lg lg:text-xl font-bold text-center lg:text-start mt-10 lg:mt-0'>Commitment to Environmental Sustainability</h1>
+              <p className='mt-10 text-[12px] md:text-sm'>
               Demonstrating our dedication to environmental sustainability, we prioritize the reduction of our carbon footprint. Upholding our commitment to environmental awareness extends beyond our internal operations to encompass our staff, suppliers, and the wider public. We diligently fulfill our responsibilities and adhere to all relevant instructions and obligations. Rigorous audits and certifications from international organizations validate the environmental integrity of our production facilities.
 <br></br>
 <br></br>
