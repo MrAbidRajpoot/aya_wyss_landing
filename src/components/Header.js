@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../images/logo.png'
 function Header() {
   return (
-        <div className='flex flex-row justify-between w-full'>
+        <div className='flex flex-row justify-between mx-24'>
           <div className='w-full'>
             <a href="/" className="-m-1.5 p-1.5">
               <img className="w-[60px] h-[50px] sm:w-[100px] sm:h-[80px] md:w-[150px] md:h-[124px]" src={logo} alt="AW logo sml" />
