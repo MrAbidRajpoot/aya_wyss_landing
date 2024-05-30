@@ -1,6 +1,19 @@
 .story_section {
     background-color: #F4F5FF;
     width: 100%;
+    clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: -180px;
+  }
+
+  .hero_section {
+  z-index: 2; 
   }
   
-  
+  .showroom_section {
+    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 96%);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: -70px;
+  }

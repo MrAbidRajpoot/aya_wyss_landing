@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <section id='services' className='mx-24 mt-20'>
+    <section id='services' className='mx-24 mt-20 relative z-10'>
       <h1 className='text-5xl font-bold '>Services</h1>
       <div className='my-10'>
         <h1 className='text-3xl font-bold my-5'>Fabric & garment design</h1>

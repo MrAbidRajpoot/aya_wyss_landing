@@ -12,10 +12,12 @@ function LandingPage() {
   return (
     <div>
     <Header/>
+    <div>
     <HeroComponent/>
     <Story/>
+    </div>
     <Services/>
-    <div className='bg-[#FFF9F0] pb-20'>
+    <div className='bg-[#FFF9F0] pb-20 showroom_section'>
       <Showroom/>
       <Sustainability/>
     </div>
