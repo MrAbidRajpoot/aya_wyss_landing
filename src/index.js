@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './pages/LandingPage';
-import { ThemeProvider } from '@material-tailwind/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
     <LandingPage/>
-    </ThemeProvider>
   </React.StrictMode>
 );
 

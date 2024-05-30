@@ -27,8 +27,8 @@ function Contact() {
   };
 
   return (
-    <section id='contact' className=' mx-16 mt-20'>
-      <img src={dots} alt="" style={{position: 'absolute'}}></img>
+    <section id='contact' className=' md:mx-16 mt-20'>
+      <img src={dots} alt="" className='hidden md:block' style={{position: 'absolute'}}></img>
       <div className='bg-[#F4F5FF] m-8 top-10 rounded-lg pb-20 z-10' style={{position: 'relative'}}>
       <h1 className='text-5xl font-medium' style={{color: '#A91079'}}>Contact</h1>
       <div className='mt-10'>
@@ -78,7 +78,7 @@ function Contact() {
         </div>
       </div>
       </div>
-      <img src={dots} className='right-16 absolute -mt-44 z-0'></img>
+      <img src={dots} className='right-16 absolute -mt-44 z-0 hidden md:block'></img>
     </section>
   )
 }

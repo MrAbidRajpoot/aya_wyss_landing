@@ -7,7 +7,7 @@ import './components.css'
 function Story() {
   return (
     <section id="story" className='pb-20 story_section'>
-      <div className='mx-24'>
+      <div className='md:mx-24 mx-4'>
         <h1 className='text-5xl font-bold m-20 text-center md:text-start'>Story</h1>
       <img src={dots} className='absolute -mt-10 -ml-8 z-0 hidden md:block'></img>
         <div className='md:flex md:flex-row justify-between gap-16'>

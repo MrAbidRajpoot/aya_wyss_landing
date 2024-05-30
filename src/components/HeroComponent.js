@@ -5,7 +5,7 @@ import './components.css'
 
 function HeroComponent() {
   return (
-    <div className='md:flex md:flex-row justify-between my-10 mx-24 relative z-10'>
+    <div className='md:flex md:flex-row justify-between my-10 md:mx-24 relative z-10 mx-4'>
       <div className='md:w-1/2 lg:py-10'>
         <div className='md:w-1/2'>
             <h1 className='text-xl lg:text-3xl xl:text-5xl font-medium text-center md:text-start'>Fashion fits from the big brands.</h1>

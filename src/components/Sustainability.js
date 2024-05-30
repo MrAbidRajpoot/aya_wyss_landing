@@ -4,7 +4,7 @@ import dots from '../images/dots.png'
 
 function Sustainability() {
   return (
-    <section id='sustainability' className='mx-24'>
+    <section id='sustainability' className='md:mx-24 mx-4'>
        <h1 className='text-2xl md:text-3xl lg:5xl font-bold mt-20 text-center lg:text-start'>Sustainability</h1>
       <img src={dots} className='absolute mt-16 -ml-8 z-0 hidden lg:block'></img>
         <div className='lg:flex lg:flex-row justify-between gap-16 mt-10'>
