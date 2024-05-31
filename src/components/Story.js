@@ -8,7 +8,7 @@ function Story() {
   return (
     <section id="story" className='pb-20 story_section'>
       <div className='md:mx-24 mx-4'>
-        <h1 className='text-5xl font-bold m-20 text-center md:text-start'>Story</h1>
+        <h1 className='text-2xl md:text-5xl font-bold m-20 text-center md:text-start'>Story</h1>
       <img src={dots} className='absolute -mt-10 -ml-8 z-0 hidden md:block'></img>
         <div className='md:flex md:flex-row justify-between gap-16'>
           <div className='md:w-1/3 z-10 flex md:block justify-center'>
@@ -28,7 +28,7 @@ function Story() {
         </div>
         <div className='md:flex md:flex-row justify-between gap-16 my-10 mt-40'>
           <div className='md:w-2/3'>
-             <h1 className='text-3xl font-medium text-center md:text-start'>Our Team</h1>
+             <h1 className='text-xl font-medium text-center md:text-start'>Our Team</h1>
               <p className='mt-10 text-center md:text-start text-[12px]'>
                   At AYA WYSS, we believe in the power of collaboration. That's why we're assembling a team of talented designers dedicated to pushing the boundaries of fashion innovation. From conceptualization to execution, our team works tirelessly to curate collections that resonate with today's dynamic market trends.              
               </p>
